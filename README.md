@@ -1,42 +1,46 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 29
 
-### Author: Student/Group Name
+### Author: Jen Carrigan
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [Assignment1](https://codesandbox.io/s/pk3xmnqq3j)
+* [Assignment2] (https://codesandbox.io/s/pprypvvyx)
 
-### Modules
-#### `modulename.js`
+### Assignment 1
+#### `index.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `Things`
+Returns props.children
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `Stuff`
+Returns Things with the children
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+###### `App`
+Renders Stuff and passes children
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+### Assignment 2
+#### `index.js`
+##### Exported Values and Methods
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+###### `App`
+Renders Stuff and passes children
+
+#### `stuff.js`
+##### Exported Values and Methods
+
+###### `Stuff`
+Returns Things with the children
+
+#### `things.js`
+##### Exported Values and Methods
+
+###### `Things`
+Returns props.children
 
 #### UML
-Link to an image of the UML for your application and response to events
+* [Assignment1](https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/Assignment1.jpg)
+* [Assignment2] (https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/Assignment2.jpg)
